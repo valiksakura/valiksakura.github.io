@@ -1,0 +1,74 @@
+#auto{
+    margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+.hr-flex{
+    margin: 40px 0;
+   }
+
+.car-item{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+  
+}
+.info-car{
+text-align: center;
+width: 50%;
+margin: 0 auto;
+}
+
+.info-car p{
+    margin: 10px 0;
+}
+
+.info-car .car-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.text{
+    text-align: justify;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+.spisok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.spisok li{
+    list-style-type: none;
+}
+.price span{
+    font-size: 25px;
+    color: #787fa0;
+    font-weight: bolder;
+}
+
+.slider
+{
+    width: inherit;
+    height: 500px;
+}
+
+.slide{
+    width: 100%;
+}
+
+.info-car{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 769px){
+    .car-item{
+        flex-direction: column;
+    }
+    .info-car{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
