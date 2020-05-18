@@ -93,8 +93,11 @@ h2{
 
 .work-title{
 	margin: auto auto;
+	margin-right: 10px;
 }
-
+.img-car-shop{
+	text-align:  center;
+}
 .flex-process hr{
 	width: 40%;
 	margin: 0 auto;
@@ -150,11 +153,19 @@ h2{
 
 .ul{
 	margin-top: 20px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	font-weight: bold;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
+	
 	list-style-type: none;
 	
+}
+
+.card-item li{
+
+	margin: auto auto;
 }
 
 .card-item:first-child .ul{
@@ -176,11 +187,17 @@ h2{
 	
 }
 
-.show-more p{
-	font-weight: 650;
+.text-bold{
+	font-size: 18px;
+	font-weight: bold	
 }
 
-.show-more a{
+.show-more p{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* .show-more a{
 	text-decoration: none;
 	padding: 10px;
 	margin-right: 10px;
@@ -207,18 +224,18 @@ h2{
 	background: #787fa0;
 	color: #ebecf0;
 	transition: 0.5s linear;
-}
+} */
 
-.card-item:nth-child(1) .show-more span{
+.card-item:nth-child(1)  span{
 	color: #5a5b62;
 }
-.card-item:nth-child(2) .show-more span{
+.card-item:nth-child(2)  span{
 	color: #cfcfcf;
 }
-.card-item:nth-child(3) .show-more span{
+.card-item:nth-child(3)  span{
 	color: #c1c5d6;
 }
-.card-item:nth-child(4) .show-more span{
+.card-item:nth-child(4)  span{
 	color: #787fa0;
 }
 
@@ -313,6 +330,9 @@ h2{
 	}
 	.all-question{
 		grid-template-columns: repeat(1,1fr)
+	}
+	.work-title{
+		margin-right: none;
 	}
 	
 }
